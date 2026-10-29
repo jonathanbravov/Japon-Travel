@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Japón Travel | Destinos</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body>
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+        <div class="encabezado-contenido">
+
+            <a href="index.html" class="logo">
+                
+                <p class="icono-logo" ><img src="imagenes/puerta-torii.png" alt="Puerta Torii"></p>
+                <p>Japón Travel</p>
+            </a>
+
+            <nav class="navegacion">
+                <a href="index.html">Inicio</a>
+                <a href="destinos.html">Destinos</a>
+                <a href="galeria.html">Galería</a>
+                <a href="paquetes.html">Paquetes</a>
+                <a href="itinerarios.html">Itinerarios</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+
+<main>
+        <!-- CONTACTO -->
+        <section  class="contacto">
+            <div class="contacto_inicio">
+                <h2>Formulario de Consultas</h2>
+                <p class="descripcion">
+                    Completa el formulario y te contactaremos.
+                </p>
+
+                <form class="formulario" action="#" method="post">
+
+                    <p >Nombre completo</p>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ingresa tu nombre"
+                        required>
+
+                    <p >Correo electrónico</p>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@correo.com"
+                        required>
+
+                    <p >Destino de interés</p>
+                    <select id="destino" name="destino" required>
+                        <option value="">Selecciona un destino</option>
+                        <option value="tokio">Tokio</option>
+                        <option value="universal">Universal Studios Japan</option>
+                        <option value="teamlab">teamLab Planets</option>
+                        <option value="hitachi">Parque Costero Hitachi</option>
+                    </select>
+
+                    <p >Teléfono</p>
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="Ingresa tu teléfono">
+
+                    <p >Mensaje</p>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="4"
+                        placeholder="Escribe tu consulta..."
+                        required></textarea>
+
+                    <button type="submit" class="boton">
+                        Enviar consulta
+                    </button>
+
+                </form>
+            </div>
+        </section>
+</main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie-pagina">
+        <p>Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
