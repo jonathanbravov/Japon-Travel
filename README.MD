@@ -31,9 +31,7 @@ Japon-Travel/
     ├── CSS/
     │   └── estilos.css
     └── imagenes/
-        ├── logo/
-        ├── destinos/
-        └── galeria/
+
 ```
 
 ## 4. Construir y ejecutar localmente con Docker
