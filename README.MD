@@ -1,4 +1,4 @@
-# 🇯🇵 Proyecto: Japón Travel
+# Proyecto: Japan Travel
 
 ## 1. Objetivo
 
